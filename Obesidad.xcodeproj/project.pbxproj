@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A62945655A3CE87B3B67F61 /* Pods_Obesidad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5DDFFB51F68C13D0E6E8F1 /* Pods_Obesidad.framework */; };
 		F2C19FD81D18B444003D9DB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FD71D18B444003D9DB9 /* main.m */; };
 		F2C19FDB1D18B444003D9DB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FDA1D18B444003D9DB9 /* AppDelegate.m */; };
 		F2C19FDE1D18B444003D9DB9 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FDD1D18B444003D9DB9 /* Start.m */; };
 		F2C19FE11D18B444003D9DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C19FDF1D18B444003D9DB9 /* Main.storyboard */; };
 		F2C19FE31D18B444003D9DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C19FE21D18B444003D9DB9 /* Assets.xcassets */; };
 		F2C19FE61D18B444003D9DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C19FE41D18B444003D9DB9 /* LaunchScreen.storyboard */; };
+		F2C19FF21D18BAA9003D9DB9 /* IconApp.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C19FF11D18BAA9003D9DB9 /* IconApp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5DDFFB51F68C13D0E6E8F1 /* Pods_Obesidad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Obesidad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4AC2903C1875FE2AAB06A1 /* Pods-Obesidad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obesidad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad.release.xcconfig"; sourceTree = "<group>"; };
+		83DC759949037E09ECD00420 /* Pods-Obesidad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obesidad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad.debug.xcconfig"; sourceTree = "<group>"; };
 		F2C19FD31D18B444003D9DB9 /* Obesidad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obesidad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C19FD71D18B444003D9DB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2C19FD91D18B444003D9DB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		F2C19FE21D18B444003D9DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C19FE51D18B444003D9DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2C19FE71D18B444003D9DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C19FF11D18BAA9003D9DB9 /* IconApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconApp.png; path = Media/IconApp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A62945655A3CE87B3B67F61 /* Pods_Obesidad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022E45FFF97FDD587D8AC8D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5DDFFB51F68C13D0E6E8F1 /* Pods_Obesidad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1026D981C8F727B10EBDCCD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83DC759949037E09ECD00420 /* Pods-Obesidad.debug.xcconfig */,
+				4C4AC2903C1875FE2AAB06A1 /* Pods-Obesidad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F2C19FCA1D18B443003D9DB9 = {
 			isa = PBXGroup;
 			children = (
 				F2C19FD51D18B444003D9DB9 /* Obesidad */,
 				F2C19FD41D18B444003D9DB9 /* Products */,
+				1026D981C8F727B10EBDCCD3 /* Pods */,
+				022E45FFF97FDD587D8AC8D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +132,7 @@
 		F2C19FF01D18B49F003D9DB9 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F2C19FF11D18BAA9003D9DB9 /* IconApp.png */,
 				F2C19FE21D18B444003D9DB9 /* Assets.xcassets */,
 			);
 			name = Media;
@@ -118,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2C19FEA1D18B444003D9DB9 /* Build configuration list for PBXNativeTarget "Obesidad" */;
 			buildPhases = (
+				B0513B436F1DAC0945376BBB /* Check Pods Manifest.lock */,
 				F2C19FCF1D18B444003D9DB9 /* Sources */,
 				F2C19FD01D18B444003D9DB9 /* Frameworks */,
 				F2C19FD11D18B444003D9DB9 /* Resources */,
+				A82BC4D8D2A67402A9AF7AB3 /* Embed Pods Frameworks */,
+				F7B0CACE3B6D10DBCFDB5D9B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C19FF21D18BAA9003D9DB9 /* IconApp.png in Resources */,
 				F2C19FE61D18B444003D9DB9 /* LaunchScreen.storyboard in Resources */,
 				F2C19FE31D18B444003D9DB9 /* Assets.xcassets in Resources */,
 				F2C19FE11D18B444003D9DB9 /* Main.storyboard in Resources */,
@@ -175,6 +206,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A82BC4D8D2A67402A9AF7AB3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0513B436F1DAC0945376BBB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B0CACE3B6D10DBCFDB5D9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2C19FCF1D18B444003D9DB9 /* Sources */ = {
@@ -293,6 +372,7 @@
 		};
 		F2C19FEB1D18B444003D9DB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DC759949037E09ECD00420 /* Pods-Obesidad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Obesidad/Info.plist;
@@ -304,6 +384,7 @@
 		};
 		F2C19FEC1D18B444003D9DB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4AC2903C1875FE2AAB06A1 /* Pods-Obesidad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Obesidad/Info.plist;
@@ -332,6 +413,7 @@
 				F2C19FEC1D18B444003D9DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
