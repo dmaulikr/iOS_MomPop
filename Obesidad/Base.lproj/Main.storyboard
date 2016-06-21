@@ -178,6 +178,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="imgBackground" destination="wcI-n4-USx" id="gSX-pv-Wdm"/>
                         <outlet property="tblCalories" destination="tKO-cc-0a7" id="PYJ-s4-nAE"/>
                     </connections>
                 </viewController>

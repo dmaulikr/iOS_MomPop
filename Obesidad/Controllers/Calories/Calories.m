@@ -21,6 +21,15 @@
 }
 
 -(void)initController{
+    
+    UIColor *myColor = [UIColor colorWithRed:(0 / 255.0) green:(0 / 255.0) blue:(0 / 255.0) alpha: 0.6];
+    UIView *vImageBackground = [[UIView alloc] init];
+    vImageBackground.frame = self.view.frame;
+    vImageBackground.backgroundColor = myColor;
+    
+    [self.imgBackground addSubview:vImageBackground];
+    
+    
     self.arDataCalories = @[@"1",@"1",@"1",@"1",@"1",@"1",@"1"];
 }
 

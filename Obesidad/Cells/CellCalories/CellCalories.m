@@ -13,6 +13,9 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    
+    UIColor *myColor = [UIColor colorWithRed:(0 / 255.0) green:(0 / 255.0) blue:(0 / 255.0) alpha: 0.7];
+    self.lblBackgroundTitle.backgroundColor = myColor;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

@@ -54,6 +54,7 @@
             <connections>
                 <outlet property="descriptionCell" destination="9k1-Ge-eK0" id="TQT-B7-OPg"/>
                 <outlet property="imageCell" destination="krk-ko-geq" id="TSO-Kp-cW5"/>
+                <outlet property="lblBackgroundTitle" destination="CG1-zu-CQe" id="8PE-t5-UzP"/>
                 <outlet property="titleCell" destination="80X-kn-cWu" id="d1l-yg-Gih"/>
             </connections>
             <point key="canvasLocation" x="245" y="307"/>

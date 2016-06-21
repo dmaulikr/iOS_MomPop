@@ -18,5 +18,6 @@
 @interface Calories : UIViewController<UITableViewDataSource, UITableViewDelegate>
 - (IBAction)btnMenuPressed:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imgBackground;
 @property (weak, nonatomic) IBOutlet UITableView *tblCalories;
 @end
