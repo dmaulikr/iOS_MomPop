@@ -14,6 +14,10 @@
 #import "InitialSlidingViewController.h"
 #import "Declarations.h"
 #import "CellCalories.h"
+#import "WebServices.h"
+#import "FoodModel.h"
+#import "UIImageView+WebCache.h"
+#import "MemoryServices.h"
 
 @interface Calories : UIViewController<UITableViewDataSource, UITableViewDelegate>
 - (IBAction)btnMenuPressed:(id)sender;

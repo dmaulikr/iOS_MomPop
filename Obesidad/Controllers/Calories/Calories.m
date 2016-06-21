@@ -8,6 +8,8 @@
 
 #import "Calories.h"
 
+#define URLMedia           @"https://jjozstjtbh.localtunnel.me/public/"
+
 @interface Calories ()
 @property (nonatomic, strong) NSArray *arDataCalories;
 @end
@@ -28,9 +30,9 @@
     vImageBackground.backgroundColor = myColor;
     
     [self.imgBackground addSubview:vImageBackground];
+    [UIApplication sharedApplication].networkActivityIndicatorVisible   = YES;
     
-    
-    self.arDataCalories = @[@"1",@"1",@"1",@"1",@"1",@"1",@"1"];
+    [self queueLoadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -85,13 +87,81 @@
         cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     }
     
-    cell.titleCell.text = @"Food";
+    FoodModel *food = [FoodModel alloc];
+    food = self.arDataCalories[indexPath.row];
+    
+    cell.titleCell.text = food.name;
+    cell.descriptionCell.text = food.desc;
+    
+    //NSURL *urlImage = [NSURL URLWithString:[URLMedia stringByAppendingString:food.image]];
+    
     cell.imageCell.image = [UIImage imageNamed:@"imageFood.png"];
+    
+    //[cell.imageCell sd_setImageWithURL:urlImage placeholderImage:[UIImage imageNamed:@"imageFood.png"] options:SDWebImageRefreshCached];
     
     return cell;
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+}
+
+#pragma mark - LOAD DATA FROM WEB SERVICES
+
+-(void)queueLoadData{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible   = YES;
+    
+    
+    
+    NSOperationQueue *queue         = [NSOperationQueue new];
+    
+    NSInvocationOperation *opInit = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(loadDataMemory) object:nil];
+    [queue addOperation:opInit];
+    
+    NSInvocationOperation *opRequest = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(loadDataRequest) object:nil];
+    [opRequest addDependency:opInit];
+    [queue addOperation:opRequest];
+    
+    NSInvocationOperation *opSaveMem = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(saveOnMemory) object:nil];
+    [opSaveMem addDependency:opRequest];
+    [queue addOperation:opSaveMem];
+    
+    NSInvocationOperation *opDidGet = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(didLoadData) object:nil];
+    [opDidGet addDependency:opInit];
+    [queue addOperation:opDidGet];
+}
+
+-(void)loadDataMemory{
+    self.arDataCalories = (NSArray*)[MemoryServices readCustomArrayFromFile:arFood];
+}
+
+-(void)loadDataRequest{
+    [WebServices getFoodsWithCompletionHandler:^(NSMutableArray *foods) {
+        // code
+        
+        if(foods != nil){
+            self.arDataCalories = foods;
+            [MemoryServices saveCustomArray:(NSMutableArray*)self.arDataCalories inFile:arFood];
+        }else{
+            self.arDataCalories = [MemoryServices readCustomArrayFromFile:arFood];
+        }
+
+        [self didLoadData];
+    }];
+}
+
+-(void)saveOnMemory{
+    [MemoryServices saveCustomArray:(NSMutableArray*)self.arDataCalories inFile:arFood];
+}
+
+- (void)didLoadData {
+    [UIApplication sharedApplication].networkActivityIndicatorVisible   = NO;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self reloadCurrentTable];
+    });
+}
+
+- (void) reloadCurrentTable {
+    [self.tblCalories reloadData];
 }
 @end
