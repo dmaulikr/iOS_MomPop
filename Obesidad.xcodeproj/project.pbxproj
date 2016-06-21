@@ -49,6 +49,9 @@
 		F2C1A0481D18D20B003D9DB9 /* CellCalories.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A0461D18D20B003D9DB9 /* CellCalories.m */; };
 		F2C1A0491D18D20B003D9DB9 /* CellCalories.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0471D18D20B003D9DB9 /* CellCalories.xib */; };
 		F2C1A04B1D18D559003D9DB9 /* imageFood.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A04A1D18D559003D9DB9 /* imageFood.png */; };
+		F2C1A0501D1946BA003D9DB9 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A04E1D1946BA003D9DB9 /* Notification.m */; };
+		F2C1A0511D1946BA003D9DB9 /* Notification.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A04F1D1946BA003D9DB9 /* Notification.xib */; };
+		F2C1A0531D19488C003D9DB9 /* starNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0521D19488C003D9DB9 /* starNotification.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +113,10 @@
 		F2C1A0461D18D20B003D9DB9 /* CellCalories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellCalories.m; path = Cells/CellCalories/CellCalories.m; sourceTree = "<group>"; };
 		F2C1A0471D18D20B003D9DB9 /* CellCalories.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellCalories.xib; path = Cells/CellCalories/CellCalories.xib; sourceTree = "<group>"; };
 		F2C1A04A1D18D559003D9DB9 /* imageFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageFood.png; path = Media/imageFood.png; sourceTree = "<group>"; };
+		F2C1A04D1D1946BA003D9DB9 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notification.h; path = Controllers/Notification/Notification.h; sourceTree = "<group>"; };
+		F2C1A04E1D1946BA003D9DB9 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notification.m; path = Controllers/Notification/Notification.m; sourceTree = "<group>"; };
+		F2C1A04F1D1946BA003D9DB9 /* Notification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Notification.xib; path = Controllers/Notification/Notification.xib; sourceTree = "<group>"; };
+		F2C1A0521D19488C003D9DB9 /* starNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starNotification.png; path = Media/starNotification.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +204,7 @@
 		F2C19FEE1D18B486003D9DB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A04C1D19468F003D9DB9 /* Notification */,
 				F2C1A0401D18D0BD003D9DB9 /* Calories */,
 				F2C1A0381D18C9EB003D9DB9 /* About */,
 				F2C1A02A1D18C0CA003D9DB9 /* Home */,
@@ -217,6 +225,7 @@
 		F2C19FF01D18B49F003D9DB9 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A0521D19488C003D9DB9 /* starNotification.png */,
 				F2C1A04A1D18D559003D9DB9 /* imageFood.png */,
 				F2C1A03E1D18D061003D9DB9 /* background_calories.png */,
 				F2C1A03C1D18CC3E003D9DB9 /* child00.png */,
@@ -341,6 +350,16 @@
 			name = CellCalories;
 			sourceTree = "<group>";
 		};
+		F2C1A04C1D19468F003D9DB9 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A04D1D1946BA003D9DB9 /* Notification.h */,
+				F2C1A04E1D1946BA003D9DB9 /* Notification.m */,
+				F2C1A04F1D1946BA003D9DB9 /* Notification.xib */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -409,6 +428,7 @@
 				F2C1A0281D18C040003D9DB9 /* mom01.png in Resources */,
 				F2C1A0351D18C7A9003D9DB9 /* icCalories.png in Resources */,
 				F2C1A0201D18C040003D9DB9 /* dad00.png in Resources */,
+				F2C1A0511D1946BA003D9DB9 /* Notification.xib in Resources */,
 				F2C1A0371D18C7A9003D9DB9 /* icMySon.png in Resources */,
 				F2C19FE61D18B444003D9DB9 /* LaunchScreen.storyboard in Resources */,
 				F2C1A02F1D18C29B003D9DB9 /* icMenu.png in Resources */,
@@ -420,6 +440,7 @@
 				F2C1A01B1D18C040003D9DB9 /* boy00.png in Resources */,
 				F2C1A0091D18BDA6003D9DB9 /* CellMenu.xib in Resources */,
 				F2C1A01C1D18C040003D9DB9 /* boy01.png in Resources */,
+				F2C1A0531D19488C003D9DB9 /* starNotification.png in Resources */,
 				F2C1A0271D18C040003D9DB9 /* mom00.png in Resources */,
 				F2C19FE31D18B444003D9DB9 /* Assets.xcassets in Resources */,
 				F2C1A0211D18C040003D9DB9 /* dad01.png in Resources */,
@@ -495,6 +516,7 @@
 				F2C19FFA1D18BBA6003D9DB9 /* ECSlidingViewController.m in Sources */,
 				F2C1A03B1D18CA02003D9DB9 /* About.m in Sources */,
 				F2C19FDB1D18B444003D9DB9 /* AppDelegate.m in Sources */,
+				F2C1A0501D1946BA003D9DB9 /* Notification.m in Sources */,
 				F2C1A0021D18BBFF003D9DB9 /* MenuViewController.m in Sources */,
 				F2C19FFF1D18BBE6003D9DB9 /* InitialSlidingViewController.m in Sources */,
 				F2C19FD81D18B444003D9DB9 /* main.m in Sources */,
