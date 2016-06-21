@@ -25,6 +25,20 @@
             </objects>
             <point key="canvasLocation" x="130.66666666666666" y="319.5"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="gQP-og-vJT">
+            <objects>
+                <viewController id="QsN-ye-Wpu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="unn-pZ-1zV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dCz-me-pX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="507" y="318"/>
+        </scene>
     </scenes>
     <resources>
         <image name="IconApp.png" width="1200" height="1200"/>
