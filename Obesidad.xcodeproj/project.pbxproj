@@ -42,6 +42,7 @@
 		F2C1A0351D18C7A9003D9DB9 /* icCalories.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0311D18C7A9003D9DB9 /* icCalories.png */; };
 		F2C1A0361D18C7A9003D9DB9 /* icFood.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0321D18C7A9003D9DB9 /* icFood.png */; };
 		F2C1A0371D18C7A9003D9DB9 /* icMySon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0331D18C7A9003D9DB9 /* icMySon.png */; };
+		F2C1A03B1D18CA02003D9DB9 /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A03A1D18CA02003D9DB9 /* About.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,8 @@
 		F2C1A0311D18C7A9003D9DB9 /* icCalories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icCalories.png; path = Media/icCalories.png; sourceTree = "<group>"; };
 		F2C1A0321D18C7A9003D9DB9 /* icFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icFood.png; path = Media/icFood.png; sourceTree = "<group>"; };
 		F2C1A0331D18C7A9003D9DB9 /* icMySon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icMySon.png; path = Media/icMySon.png; sourceTree = "<group>"; };
+		F2C1A0391D18CA02003D9DB9 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = About.h; path = Controllers/About/About.h; sourceTree = "<group>"; };
+		F2C1A03A1D18CA02003D9DB9 /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = About.m; path = Controllers/About/About.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,7 @@
 		F2C19FEE1D18B486003D9DB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A0381D18C9EB003D9DB9 /* About */,
 				F2C1A02A1D18C0CA003D9DB9 /* Home */,
 				F2C1A0291D18C0C0003D9DB9 /* Start */,
 			);
@@ -288,6 +292,15 @@
 				F2C1A02C1D18C0E9003D9DB9 /* Home.m */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		F2C1A0381D18C9EB003D9DB9 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A0391D18CA02003D9DB9 /* About.h */,
+				F2C1A03A1D18CA02003D9DB9 /* About.m */,
+			);
+			name = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +450,7 @@
 				F2C19FDE1D18B444003D9DB9 /* Start.m in Sources */,
 				F2C1A0081D18BDA6003D9DB9 /* CellMenu.m in Sources */,
 				F2C19FFA1D18BBA6003D9DB9 /* ECSlidingViewController.m in Sources */,
+				F2C1A03B1D18CA02003D9DB9 /* About.m in Sources */,
 				F2C19FDB1D18B444003D9DB9 /* AppDelegate.m in Sources */,
 				F2C1A0021D18BBFF003D9DB9 /* MenuViewController.m in Sources */,
 				F2C19FFF1D18BBE6003D9DB9 /* InitialSlidingViewController.m in Sources */,

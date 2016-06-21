@@ -102,7 +102,7 @@
             newTopViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];
             break;
         case nAbout:
-            newTopViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];
+            newTopViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"aboutController"];
             break;
         default:
             break;
