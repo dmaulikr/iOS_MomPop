@@ -44,6 +44,11 @@
 		F2C1A0371D18C7A9003D9DB9 /* icMySon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0331D18C7A9003D9DB9 /* icMySon.png */; };
 		F2C1A03B1D18CA02003D9DB9 /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A03A1D18CA02003D9DB9 /* About.m */; };
 		F2C1A03D1D18CC3E003D9DB9 /* child00.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A03C1D18CC3E003D9DB9 /* child00.png */; };
+		F2C1A03F1D18D061003D9DB9 /* background_calories.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A03E1D18D061003D9DB9 /* background_calories.png */; };
+		F2C1A0431D18D0DF003D9DB9 /* Calories.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A0421D18D0DF003D9DB9 /* Calories.m */; };
+		F2C1A0481D18D20B003D9DB9 /* CellCalories.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A0461D18D20B003D9DB9 /* CellCalories.m */; };
+		F2C1A0491D18D20B003D9DB9 /* CellCalories.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0471D18D20B003D9DB9 /* CellCalories.xib */; };
+		F2C1A04B1D18D559003D9DB9 /* imageFood.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A04A1D18D559003D9DB9 /* imageFood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +103,13 @@
 		F2C1A0391D18CA02003D9DB9 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = About.h; path = Controllers/About/About.h; sourceTree = "<group>"; };
 		F2C1A03A1D18CA02003D9DB9 /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = About.m; path = Controllers/About/About.m; sourceTree = "<group>"; };
 		F2C1A03C1D18CC3E003D9DB9 /* child00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = child00.png; path = Media/child00.png; sourceTree = "<group>"; };
+		F2C1A03E1D18D061003D9DB9 /* background_calories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_calories.png; path = Media/background_calories.png; sourceTree = "<group>"; };
+		F2C1A0411D18D0DF003D9DB9 /* Calories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calories.h; path = Controllers/Calories/Calories.h; sourceTree = "<group>"; };
+		F2C1A0421D18D0DF003D9DB9 /* Calories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calories.m; path = Controllers/Calories/Calories.m; sourceTree = "<group>"; };
+		F2C1A0451D18D20B003D9DB9 /* CellCalories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellCalories.h; path = Cells/CellCalories/CellCalories.h; sourceTree = "<group>"; };
+		F2C1A0461D18D20B003D9DB9 /* CellCalories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellCalories.m; path = Cells/CellCalories/CellCalories.m; sourceTree = "<group>"; };
+		F2C1A0471D18D20B003D9DB9 /* CellCalories.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellCalories.xib; path = Cells/CellCalories/CellCalories.xib; sourceTree = "<group>"; };
+		F2C1A04A1D18D559003D9DB9 /* imageFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageFood.png; path = Media/imageFood.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +197,7 @@
 		F2C19FEE1D18B486003D9DB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A0401D18D0BD003D9DB9 /* Calories */,
 				F2C1A0381D18C9EB003D9DB9 /* About */,
 				F2C1A02A1D18C0CA003D9DB9 /* Home */,
 				F2C1A0291D18C0C0003D9DB9 /* Start */,
@@ -204,6 +217,8 @@
 		F2C19FF01D18B49F003D9DB9 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A04A1D18D559003D9DB9 /* imageFood.png */,
+				F2C1A03E1D18D061003D9DB9 /* background_calories.png */,
 				F2C1A03C1D18CC3E003D9DB9 /* child00.png */,
 				F2C1A0301D18C7A9003D9DB9 /* icAbout.png */,
 				F2C1A0311D18C7A9003D9DB9 /* icCalories.png */,
@@ -264,6 +279,7 @@
 		F2C1A0031D18BCEA003D9DB9 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A0441D18D1E8003D9DB9 /* CellCalories */,
 				F2C1A0041D18BD8D003D9DB9 /* CellMenu */,
 			);
 			name = Cells;
@@ -304,6 +320,25 @@
 				F2C1A03A1D18CA02003D9DB9 /* About.m */,
 			);
 			name = About;
+			sourceTree = "<group>";
+		};
+		F2C1A0401D18D0BD003D9DB9 /* Calories */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A0411D18D0DF003D9DB9 /* Calories.h */,
+				F2C1A0421D18D0DF003D9DB9 /* Calories.m */,
+			);
+			name = Calories;
+			sourceTree = "<group>";
+		};
+		F2C1A0441D18D1E8003D9DB9 /* CellCalories */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A0451D18D20B003D9DB9 /* CellCalories.h */,
+				F2C1A0461D18D20B003D9DB9 /* CellCalories.m */,
+				F2C1A0471D18D20B003D9DB9 /* CellCalories.xib */,
+			);
+			name = CellCalories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,7 +412,9 @@
 				F2C1A0371D18C7A9003D9DB9 /* icMySon.png in Resources */,
 				F2C19FE61D18B444003D9DB9 /* LaunchScreen.storyboard in Resources */,
 				F2C1A02F1D18C29B003D9DB9 /* icMenu.png in Resources */,
+				F2C1A04B1D18D559003D9DB9 /* imageFood.png in Resources */,
 				F2C1A0261D18C040003D9DB9 /* girl04.png in Resources */,
+				F2C1A0491D18D20B003D9DB9 /* CellCalories.xib in Resources */,
 				F2C1A01F1D18C040003D9DB9 /* boy04.png in Resources */,
 				F2C1A0241D18C040003D9DB9 /* girl02.png in Resources */,
 				F2C1A01B1D18C040003D9DB9 /* boy00.png in Resources */,
@@ -391,6 +428,7 @@
 				F2C1A0251D18C040003D9DB9 /* girl03.png in Resources */,
 				F2C1A0221D18C040003D9DB9 /* girl00.png in Resources */,
 				F2C1A03D1D18CC3E003D9DB9 /* child00.png in Resources */,
+				F2C1A03F1D18D061003D9DB9 /* background_calories.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +491,7 @@
 				F2C19FFB1D18BBA6003D9DB9 /* UIImage+ImageWithUIView.m in Sources */,
 				F2C19FDE1D18B444003D9DB9 /* Start.m in Sources */,
 				F2C1A0081D18BDA6003D9DB9 /* CellMenu.m in Sources */,
+				F2C1A0481D18D20B003D9DB9 /* CellCalories.m in Sources */,
 				F2C19FFA1D18BBA6003D9DB9 /* ECSlidingViewController.m in Sources */,
 				F2C1A03B1D18CA02003D9DB9 /* About.m in Sources */,
 				F2C19FDB1D18B444003D9DB9 /* AppDelegate.m in Sources */,
@@ -460,6 +499,7 @@
 				F2C19FFF1D18BBE6003D9DB9 /* InitialSlidingViewController.m in Sources */,
 				F2C19FD81D18B444003D9DB9 /* main.m in Sources */,
 				F2C1A00C1D18BE43003D9DB9 /* Declarations.m in Sources */,
+				F2C1A0431D18D0DF003D9DB9 /* Calories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

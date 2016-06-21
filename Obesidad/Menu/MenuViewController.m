@@ -96,7 +96,7 @@
             newTopViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];
             break;
         case nCalories:
-            newTopViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];
+            newTopViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"calloriesController"];
             break;
         case nFood:
             newTopViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];

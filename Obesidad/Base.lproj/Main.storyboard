@@ -126,6 +126,65 @@
             </objects>
             <point key="canvasLocation" x="129" y="957"/>
         </scene>
+        <!--Calories-->
+        <scene sceneID="feY-iH-cTZ">
+            <objects>
+                <viewController storyboardIdentifier="calloriesController" id="GWM-So-Bd7" customClass="Calories" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pRK-bD-JAO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_calories.png" id="wcI-n4-USx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="wAu-XC-qnD" userLabel="vTop">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi Hijo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jQ1-Cz-hhA">
+                                        <rect key="frame" x="57" y="27" width="217" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="18"/>
+                                        <color key="textColor" red="0.078431372550000003" green="0.85098039219999999" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FkP-6U-Okr">
+                                        <rect key="frame" x="8" y="20" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="btnMenuPressed:" destination="GWM-So-Bd7" eventType="touchUpInside" id="VYR-I5-mhx"/>
+                                            <action selector="btnMenuPressed:" destination="NwG-2h-wJW" eventType="touchUpInside" id="sxE-jd-gC8"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icMenu.png" id="z0o-hL-yeA">
+                                        <rect key="frame" x="10" y="23" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tKO-cc-0a7">
+                                <rect key="frame" x="6" y="67" width="309" height="494"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="GWM-So-Bd7" id="o3o-IP-MfW"/>
+                                    <outlet property="delegate" destination="GWM-So-Bd7" id="Ia9-9T-9ia"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="tblCalories" destination="tKO-cc-0a7" id="PYJ-s4-nAE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wof-V5-bqD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="507" y="957"/>
+        </scene>
         <!--About-->
         <scene sceneID="GeY-pj-00e">
             <objects>
@@ -256,6 +315,7 @@
     </scenes>
     <resources>
         <image name="IconApp.png" width="1200" height="1200"/>
+        <image name="background_calories.png" width="640" height="1136"/>
         <image name="child00.png" width="451" height="612"/>
         <image name="icMenu.png" width="70" height="70"/>
         <image name="mom01.png" width="128" height="128"/>
