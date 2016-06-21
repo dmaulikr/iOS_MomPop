@@ -51,11 +51,7 @@
 
 -(void)configLocalNotification{
     
-    NSLog(@"Config notification");
-    
     NSDictionary *userInfo = @{@"message" : @"Hellow notification!!!"};
-    
-    
     
     UILocalNotification *notification = [[UILocalNotification alloc] init];
     notification.fireDate = [NSDate dateWithTimeIntervalSinceNow:5];
