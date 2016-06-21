@@ -35,4 +35,7 @@
 }
 
 
+- (IBAction)btnClosePressed:(id)sender {
+    [self.presentingPopinViewController dismissCurrentPopinControllerAnimated:YES completion:nil];
+}
 @end

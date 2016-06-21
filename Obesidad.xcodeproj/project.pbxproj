@@ -52,6 +52,7 @@
 		F2C1A0501D1946BA003D9DB9 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A04E1D1946BA003D9DB9 /* Notification.m */; };
 		F2C1A0511D1946BA003D9DB9 /* Notification.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A04F1D1946BA003D9DB9 /* Notification.xib */; };
 		F2C1A0531D19488C003D9DB9 /* starNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0521D19488C003D9DB9 /* starNotification.png */; };
+		F2C1A0571D1949BD003D9DB9 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A0561D1949BD003D9DB9 /* UIViewController+MaryPopin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +118,8 @@
 		F2C1A04E1D1946BA003D9DB9 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notification.m; path = Controllers/Notification/Notification.m; sourceTree = "<group>"; };
 		F2C1A04F1D1946BA003D9DB9 /* Notification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Notification.xib; path = Controllers/Notification/Notification.xib; sourceTree = "<group>"; };
 		F2C1A0521D19488C003D9DB9 /* starNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starNotification.png; path = Media/starNotification.png; sourceTree = "<group>"; };
+		F2C1A0551D1949BD003D9DB9 /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
+		F2C1A0561D1949BD003D9DB9 /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +260,7 @@
 		F2C19FF31D18BB90003D9DB9 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A0541D1949BD003D9DB9 /* MaryPopin */,
 				F2C19FF51D18BBA6003D9DB9 /* ECSlidingViewController */,
 			);
 			name = Libraries;
@@ -358,6 +362,16 @@
 				F2C1A04F1D1946BA003D9DB9 /* Notification.xib */,
 			);
 			name = Notification;
+			sourceTree = "<group>";
+		};
+		F2C1A0541D1949BD003D9DB9 /* MaryPopin */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A0551D1949BD003D9DB9 /* UIViewController+MaryPopin.h */,
+				F2C1A0561D1949BD003D9DB9 /* UIViewController+MaryPopin.m */,
+			);
+			name = MaryPopin;
+			path = Libraries/MaryPopin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,6 +526,7 @@
 				F2C19FFB1D18BBA6003D9DB9 /* UIImage+ImageWithUIView.m in Sources */,
 				F2C19FDE1D18B444003D9DB9 /* Start.m in Sources */,
 				F2C1A0081D18BDA6003D9DB9 /* CellMenu.m in Sources */,
+				F2C1A0571D1949BD003D9DB9 /* UIViewController+MaryPopin.m in Sources */,
 				F2C1A0481D18D20B003D9DB9 /* CellCalories.m in Sources */,
 				F2C19FFA1D18BBA6003D9DB9 /* ECSlidingViewController.m in Sources */,
 				F2C1A03B1D18CA02003D9DB9 /* About.m in Sources */,
