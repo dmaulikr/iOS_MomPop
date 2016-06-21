@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self configLocalNotification];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,5 +47,24 @@
 
 - (IBAction)btnMenuPressed:(id)sender {
     [self.slidingViewController anchorTopViewTo:ECRight];
+}
+
+-(void)configLocalNotification{
+    
+    NSLog(@"Config notification");
+    
+    NSDictionary *userInfo = @{@"message" : @"Hellow notification!!!"};
+    
+    
+    
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    notification.fireDate = [NSDate dateWithTimeIntervalSinceNow:5];
+    notification.alertBody = @"Hellow notification!!!";
+    notification.userInfo = userInfo;
+    notification.timeZone = [NSTimeZone defaultTimeZone];
+    notification.soundName = UILocalNotificationDefaultSoundName;
+    //notification.applicationIconBadgeNumber = 1;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
 @end

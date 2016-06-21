@@ -53,6 +53,7 @@
 		F2C1A0511D1946BA003D9DB9 /* Notification.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A04F1D1946BA003D9DB9 /* Notification.xib */; };
 		F2C1A0531D19488C003D9DB9 /* starNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0521D19488C003D9DB9 /* starNotification.png */; };
 		F2C1A0571D1949BD003D9DB9 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A0561D1949BD003D9DB9 /* UIViewController+MaryPopin.m */; };
+		F2C1A0591D1955F3003D9DB9 /* closeNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0581D1955F3003D9DB9 /* closeNotification.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +121,7 @@
 		F2C1A0521D19488C003D9DB9 /* starNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starNotification.png; path = Media/starNotification.png; sourceTree = "<group>"; };
 		F2C1A0551D1949BD003D9DB9 /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
 		F2C1A0561D1949BD003D9DB9 /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
+		F2C1A0581D1955F3003D9DB9 /* closeNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = closeNotification.png; path = Media/closeNotification.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 		F2C19FF01D18B49F003D9DB9 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A0581D1955F3003D9DB9 /* closeNotification.png */,
 				F2C1A0521D19488C003D9DB9 /* starNotification.png */,
 				F2C1A04A1D18D559003D9DB9 /* imageFood.png */,
 				F2C1A03E1D18D061003D9DB9 /* background_calories.png */,
@@ -448,6 +451,7 @@
 				F2C1A02F1D18C29B003D9DB9 /* icMenu.png in Resources */,
 				F2C1A04B1D18D559003D9DB9 /* imageFood.png in Resources */,
 				F2C1A0261D18C040003D9DB9 /* girl04.png in Resources */,
+				F2C1A0591D1955F3003D9DB9 /* closeNotification.png in Resources */,
 				F2C1A0491D18D20B003D9DB9 /* CellCalories.xib in Resources */,
 				F2C1A01F1D18C040003D9DB9 /* boy04.png in Resources */,
 				F2C1A0241D18C040003D9DB9 /* girl02.png in Resources */,

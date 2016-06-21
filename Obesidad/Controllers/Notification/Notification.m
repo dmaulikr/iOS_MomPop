@@ -29,8 +29,7 @@
     UIColor *myColor = [UIColor colorWithRed:(0 / 255.0) green:(0 / 255.0) blue:(0 / 255.0) alpha: 0.6];
     self.view.backgroundColor = myColor;
     
-    self.vWrapper.layer.cornerRadius = 10;
-    self.vWrapper.layer.masksToBounds = YES;
+    self.lblTextNotification.text = self.stNotificationText;
     
 }
 

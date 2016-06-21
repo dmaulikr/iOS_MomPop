@@ -17,7 +17,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]){
+        
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    }
+    
+    [launchOptions valueForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    
     return YES;
+}
+
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+    
+    
+    
+    
+    Notification *popin = [[Notification alloc] init];
+    
+    popin.stNotificationText = [notification.userInfo objectForKey:@"message"];
+    
+    [popin setPopinTransitionStyle:BKTPopinTransitionStyleZoom];
+    [popin setPopinTransitionDirection:BKTPopinTransitionDirectionTop];
+    [popin setPopinAlignment:0];
+    
+    BKTBlurParameters *blurParameters       = [BKTBlurParameters new];
+    blurParameters.alpha                    = 1.0f;
+    blurParameters.radius                   = 8.0f;
+    blurParameters.saturationDeltaFactor    = 1.8f;
+    [popin setBlurParameters:blurParameters];
+    [popin setPopinOptions:[popin popinOptions]|BKTPopinBlurryDimmingView];
+    [popin setPopinOptions:BKTPopinIgnoreKeyboardNotification];
+    [popin setPreferedPopinContentSize:CGSizeMake(self.window.frame.size.width, self.window.frame.size.height)];
+    [popin setPopinTransitionDirection:BKTPopinTransitionDirectionTop];
+    [self.window.rootViewController presentPopinController:popin animated:YES completion:nil];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Notification.h"
+#import "UIViewController+MaryPopin.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
