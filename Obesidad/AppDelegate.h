@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Notification.h"
 #import "UIViewController+MaryPopin.h"
+#import <Fabric/Fabric.h>
+#import <DigitsKit/DigitsKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

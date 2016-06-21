@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A62945655A3CE87B3B67F61 /* Pods_Obesidad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5DDFFB51F68C13D0E6E8F1 /* Pods_Obesidad.framework */; };
+		6998C556B78512F761152E19 /* Pods_Obesidad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776CBD08B091A21926C1B978 /* Pods_Obesidad.framework */; };
+		F2BB60F71D19AD93009785F0 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BB60F61D19AD93009785F0 /* Register.m */; };
 		F2C19FD81D18B444003D9DB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FD71D18B444003D9DB9 /* main.m */; };
 		F2C19FDB1D18B444003D9DB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FDA1D18B444003D9DB9 /* AppDelegate.m */; };
 		F2C19FDE1D18B444003D9DB9 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FDD1D18B444003D9DB9 /* Start.m */; };
@@ -76,9 +77,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A5DDFFB51F68C13D0E6E8F1 /* Pods_Obesidad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Obesidad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C4AC2903C1875FE2AAB06A1 /* Pods-Obesidad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obesidad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad.release.xcconfig"; sourceTree = "<group>"; };
-		83DC759949037E09ECD00420 /* Pods-Obesidad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obesidad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad.debug.xcconfig"; sourceTree = "<group>"; };
+		776CBD08B091A21926C1B978 /* Pods_Obesidad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Obesidad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6E63604DE5A52FF1152345 /* Pods-Obesidad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obesidad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad.debug.xcconfig"; sourceTree = "<group>"; };
+		9A87743FA92C9C5766D3AE29 /* Pods-Obesidad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obesidad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad.release.xcconfig"; sourceTree = "<group>"; };
+		F2BB60F51D19AD93009785F0 /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Register.h; path = Controllers/Register/Register.h; sourceTree = "<group>"; };
+		F2BB60F61D19AD93009785F0 /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Register.m; path = Controllers/Register/Register.m; sourceTree = "<group>"; };
 		F2C19FD31D18B444003D9DB9 /* Obesidad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obesidad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C19FD71D18B444003D9DB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2C19FD91D18B444003D9DB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -187,28 +190,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A62945655A3CE87B3B67F61 /* Pods_Obesidad.framework in Frameworks */,
+				6998C556B78512F761152E19 /* Pods_Obesidad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		022E45FFF97FDD587D8AC8D3 /* Frameworks */ = {
+		066469170FE8D7CC447CC8FC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A5DDFFB51F68C13D0E6E8F1 /* Pods_Obesidad.framework */,
+				8F6E63604DE5A52FF1152345 /* Pods-Obesidad.debug.xcconfig */,
+				9A87743FA92C9C5766D3AE29 /* Pods-Obesidad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1FFC36786912F79B95AA88E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				776CBD08B091A21926C1B978 /* Pods_Obesidad.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1026D981C8F727B10EBDCCD3 /* Pods */ = {
+		F2BB60F41D19AD77009785F0 /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				83DC759949037E09ECD00420 /* Pods-Obesidad.debug.xcconfig */,
-				4C4AC2903C1875FE2AAB06A1 /* Pods-Obesidad.release.xcconfig */,
+				F2BB60F51D19AD93009785F0 /* Register.h */,
+				F2BB60F61D19AD93009785F0 /* Register.m */,
 			);
-			name = Pods;
+			name = Register;
 			sourceTree = "<group>";
 		};
 		F2C19FCA1D18B443003D9DB9 = {
@@ -216,8 +228,8 @@
 			children = (
 				F2C19FD51D18B444003D9DB9 /* Obesidad */,
 				F2C19FD41D18B444003D9DB9 /* Products */,
-				1026D981C8F727B10EBDCCD3 /* Pods */,
-				022E45FFF97FDD587D8AC8D3 /* Frameworks */,
+				066469170FE8D7CC447CC8FC /* Pods */,
+				1FFC36786912F79B95AA88E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -269,6 +281,7 @@
 		F2C19FEE1D18B486003D9DB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2BB60F41D19AD77009785F0 /* Register */,
 				F2C1A04C1D19468F003D9DB9 /* Notification */,
 				F2C1A0401D18D0BD003D9DB9 /* Calories */,
 				F2C1A0381D18C9EB003D9DB9 /* About */,
@@ -514,12 +527,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2C19FEA1D18B444003D9DB9 /* Build configuration list for PBXNativeTarget "Obesidad" */;
 			buildPhases = (
-				B0513B436F1DAC0945376BBB /* Check Pods Manifest.lock */,
+				CCE6664F8FFD83A4B72CDE59 /* [CP] Check Pods Manifest.lock */,
 				F2C19FCF1D18B444003D9DB9 /* Sources */,
 				F2C19FD01D18B444003D9DB9 /* Frameworks */,
 				F2C19FD11D18B444003D9DB9 /* Resources */,
-				A82BC4D8D2A67402A9AF7AB3 /* Embed Pods Frameworks */,
-				F7B0CACE3B6D10DBCFDB5D9B /* Copy Pods Resources */,
+				D65D47AC40C43DB7975A8D62 /* [CP] Embed Pods Frameworks */,
+				F85B9D8776672D900E4B0B71 /* [CP] Copy Pods Resources */,
+				F2BB60F31D19AB27009785F0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -604,29 +618,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A82BC4D8D2A67402A9AF7AB3 /* Embed Pods Frameworks */ = {
+		CCE6664F8FFD83A4B72CDE59 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0513B436F1DAC0945376BBB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -634,14 +633,42 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F7B0CACE3B6D10DBCFDB5D9B /* Copy Pods Resources */ = {
+		D65D47AC40C43DB7975A8D62 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Obesidad/Pods-Obesidad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2BB60F31D19AB27009785F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 6819f013568d2ed50dab42fdb14094c25ba6ddf7 d383f13d7f8f0bd4125dce90cc0d14b8fb8221325e49834e3a69ec2b3fbc83da";
+		};
+		F85B9D8776672D900E4B0B71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,6 +696,7 @@
 				F2C1A0571D1949BD003D9DB9 /* UIViewController+MaryPopin.m in Sources */,
 				F2C1A0481D18D20B003D9DB9 /* CellCalories.m in Sources */,
 				F2C1A0931D198A05003D9DB9 /* UIImageView+WebCache.m in Sources */,
+				F2BB60F71D19AD93009785F0 /* Register.m in Sources */,
 				F2C19FFA1D18BBA6003D9DB9 /* ECSlidingViewController.m in Sources */,
 				F2C1A03B1D18CA02003D9DB9 /* About.m in Sources */,
 				F2C19FDB1D18B444003D9DB9 /* AppDelegate.m in Sources */,
@@ -799,7 +827,7 @@
 		};
 		F2C19FEB1D18B444003D9DB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83DC759949037E09ECD00420 /* Pods-Obesidad.debug.xcconfig */;
+			baseConfigurationReference = 8F6E63604DE5A52FF1152345 /* Pods-Obesidad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Obesidad/Info.plist;
@@ -811,7 +839,7 @@
 		};
 		F2C19FEC1D18B444003D9DB9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C4AC2903C1875FE2AAB06A1 /* Pods-Obesidad.release.xcconfig */;
+			baseConfigurationReference = 9A87743FA92C9C5766D3AE29 /* Pods-Obesidad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Obesidad/Info.plist;

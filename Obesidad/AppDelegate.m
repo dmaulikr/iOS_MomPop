@@ -26,6 +26,9 @@
     
     [launchOptions valueForKey:UIApplicationLaunchOptionsLocalNotificationKey];
     
+    
+    [Fabric with:@[[Digits class]]];
+    
     return YES;
 }
 

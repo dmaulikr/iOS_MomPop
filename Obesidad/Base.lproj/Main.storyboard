@@ -5,6 +5,46 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Register-->
+        <scene sceneID="A9A-3c-Pny">
+            <objects>
+                <viewController storyboardIdentifier="registerController" id="g7W-h2-Dl4" customClass="Register" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GsD-yz-8C9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mom00.png" id="dCG-cs-2dg">
+                                <rect key="frame" x="107" y="109" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="center" minimumFontSize="17" id="oHO-88-cKl">
+                                <rect key="frame" x="35" y="309" width="265" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Iw-Yg-GoT">
+                                <rect key="frame" x="62" y="416" width="196" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Iniciar Sesión">
+                                    <color key="titleColor" red="0.078431372550000003" green="0.85098039219999999" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSignInPressed:" destination="g7W-h2-Dl4" eventType="touchUpInside" id="wKF-Ed-GQG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.078431372550000003" green="0.85098039219999999" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtPhone" destination="oHO-88-cKl" id="E9s-kL-jEw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j4K-j7-YTL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="-314"/>
+        </scene>
         <!--Start-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -319,6 +359,7 @@
         <image name="background_calories.png" width="640" height="1136"/>
         <image name="child00.png" width="451" height="612"/>
         <image name="icMenu.png" width="70" height="70"/>
+        <image name="mom00.png" width="128" height="128"/>
         <image name="mom01.png" width="128" height="128"/>
     </resources>
 </document>

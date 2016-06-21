@@ -21,7 +21,7 @@
     
     UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
-    InitialSlidingViewController *vc    = [board instantiateViewControllerWithIdentifier:@"InitialSlidingViewController"];
+    InitialSlidingViewController *vc    = [board instantiateViewControllerWithIdentifier:@"registerController"];
     AppDelegate *appDelegate            = (AppDelegate *)[UIApplication sharedApplication].delegate;
     [appDelegate transitionToViewController:vc withTransition:UIViewAnimationOptionTransitionFlipFromRight];
     

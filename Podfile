@@ -11,6 +11,9 @@ target "Obesidad" do
     pod 'Google/CloudMessaging'
     pod 'IQKeyboardManager'
     pod 'JVFloatLabeledTextField'
+    pod 'Fabric'
+    pod 'Digits'
+    pod 'TwitterCore'
     
 end
 
