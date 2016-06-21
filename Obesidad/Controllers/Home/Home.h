@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Home.h
 //  Obesidad
 //
 //  Created by Galileo Guzman on 6/20/16.
@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "AppDelegate.h"
+#import <CoreLocation/CoreLocation.h>
 #import "ECSlidingViewController.h"
 #import "MenuViewController.h"
 #import "InitialSlidingViewController.h"
 #import "Declarations.h"
 
-@interface Start : UIViewController
 
+@interface Home : UIViewController
+- (IBAction)btnMenuPressed:(id)sender;
 
 @end
-

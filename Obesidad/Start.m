@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    InitialSlidingViewController *vc    = [board instantiateViewControllerWithIdentifier:@"InitialSlidingViewController"];
+    AppDelegate *appDelegate            = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [appDelegate transitionToViewController:vc withTransition:UIViewAnimationOptionTransitionFlipFromRight];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -42,4 +42,17 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+/*TRANSITION TO VIEW CONTROLLER*/
+
+- (void)transitionToViewController:(UIViewController *)viewController
+                    withTransition:(UIViewAnimationOptions)transition
+{
+    [UIView transitionFromView:self.window.rootViewController.view
+                        toView:viewController.view
+                      duration:0.65f
+                       options:transition
+                    completion:^(BOOL finished){
+                        self.window.rootViewController = viewController;
+                    }];
+}
 @end

@@ -17,6 +17,31 @@
 		F2C19FF21D18BAA9003D9DB9 /* IconApp.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C19FF11D18BAA9003D9DB9 /* IconApp.png */; };
 		F2C19FFA1D18BBA6003D9DB9 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FF71D18BBA6003D9DB9 /* ECSlidingViewController.m */; };
 		F2C19FFB1D18BBA6003D9DB9 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FF91D18BBA6003D9DB9 /* UIImage+ImageWithUIView.m */; };
+		F2C19FFF1D18BBE6003D9DB9 /* InitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C19FFE1D18BBE6003D9DB9 /* InitialSlidingViewController.m */; };
+		F2C1A0021D18BBFF003D9DB9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A0011D18BBFF003D9DB9 /* MenuViewController.m */; };
+		F2C1A0081D18BDA6003D9DB9 /* CellMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A0061D18BDA6003D9DB9 /* CellMenu.m */; };
+		F2C1A0091D18BDA6003D9DB9 /* CellMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0071D18BDA6003D9DB9 /* CellMenu.xib */; };
+		F2C1A00C1D18BE43003D9DB9 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A00B1D18BE43003D9DB9 /* Declarations.m */; };
+		F2C1A01B1D18C040003D9DB9 /* boy00.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A00D1D18C040003D9DB9 /* boy00.png */; };
+		F2C1A01C1D18C040003D9DB9 /* boy01.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A00E1D18C040003D9DB9 /* boy01.png */; };
+		F2C1A01D1D18C040003D9DB9 /* boy02.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A00F1D18C040003D9DB9 /* boy02.png */; };
+		F2C1A01E1D18C040003D9DB9 /* boy03.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0101D18C040003D9DB9 /* boy03.png */; };
+		F2C1A01F1D18C040003D9DB9 /* boy04.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0111D18C040003D9DB9 /* boy04.png */; };
+		F2C1A0201D18C040003D9DB9 /* dad00.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0121D18C040003D9DB9 /* dad00.png */; };
+		F2C1A0211D18C040003D9DB9 /* dad01.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0131D18C040003D9DB9 /* dad01.png */; };
+		F2C1A0221D18C040003D9DB9 /* girl00.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0141D18C040003D9DB9 /* girl00.png */; };
+		F2C1A0231D18C040003D9DB9 /* girl01.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0151D18C040003D9DB9 /* girl01.png */; };
+		F2C1A0241D18C040003D9DB9 /* girl02.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0161D18C040003D9DB9 /* girl02.png */; };
+		F2C1A0251D18C040003D9DB9 /* girl03.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0171D18C040003D9DB9 /* girl03.png */; };
+		F2C1A0261D18C040003D9DB9 /* girl04.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0181D18C040003D9DB9 /* girl04.png */; };
+		F2C1A0271D18C040003D9DB9 /* mom00.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0191D18C040003D9DB9 /* mom00.png */; };
+		F2C1A0281D18C040003D9DB9 /* mom01.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A01A1D18C040003D9DB9 /* mom01.png */; };
+		F2C1A02D1D18C0E9003D9DB9 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C1A02C1D18C0E9003D9DB9 /* Home.m */; };
+		F2C1A02F1D18C29B003D9DB9 /* icMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A02E1D18C29B003D9DB9 /* icMenu.png */; };
+		F2C1A0341D18C7A9003D9DB9 /* icAbout.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0301D18C7A9003D9DB9 /* icAbout.png */; };
+		F2C1A0351D18C7A9003D9DB9 /* icCalories.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0311D18C7A9003D9DB9 /* icCalories.png */; };
+		F2C1A0361D18C7A9003D9DB9 /* icFood.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0321D18C7A9003D9DB9 /* icFood.png */; };
+		F2C1A0371D18C7A9003D9DB9 /* icMySon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C1A0331D18C7A9003D9DB9 /* icMySon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +63,36 @@
 		F2C19FF71D18BBA6003D9DB9 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
 		F2C19FF81D18BBA6003D9DB9 /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
 		F2C19FF91D18BBA6003D9DB9 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		F2C19FFD1D18BBE6003D9DB9 /* InitialSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InitialSlidingViewController.h; path = Menu/InitialSlidingViewController.h; sourceTree = "<group>"; };
+		F2C19FFE1D18BBE6003D9DB9 /* InitialSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitialSlidingViewController.m; path = Menu/InitialSlidingViewController.m; sourceTree = "<group>"; };
+		F2C1A0001D18BBFF003D9DB9 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Menu/MenuViewController.h; sourceTree = "<group>"; };
+		F2C1A0011D18BBFF003D9DB9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Menu/MenuViewController.m; sourceTree = "<group>"; };
+		F2C1A0051D18BDA6003D9DB9 /* CellMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellMenu.h; path = Cells/CellMenu/CellMenu.h; sourceTree = "<group>"; };
+		F2C1A0061D18BDA6003D9DB9 /* CellMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellMenu.m; path = Cells/CellMenu/CellMenu.m; sourceTree = "<group>"; };
+		F2C1A0071D18BDA6003D9DB9 /* CellMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellMenu.xib; path = Cells/CellMenu/CellMenu.xib; sourceTree = "<group>"; };
+		F2C1A00A1D18BE43003D9DB9 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Declarations.h; path = Main/Declarations.h; sourceTree = "<group>"; };
+		F2C1A00B1D18BE43003D9DB9 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Declarations.m; path = Main/Declarations.m; sourceTree = "<group>"; };
+		F2C1A00D1D18C040003D9DB9 /* boy00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boy00.png; path = Media/boy00.png; sourceTree = "<group>"; };
+		F2C1A00E1D18C040003D9DB9 /* boy01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boy01.png; path = Media/boy01.png; sourceTree = "<group>"; };
+		F2C1A00F1D18C040003D9DB9 /* boy02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boy02.png; path = Media/boy02.png; sourceTree = "<group>"; };
+		F2C1A0101D18C040003D9DB9 /* boy03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boy03.png; path = Media/boy03.png; sourceTree = "<group>"; };
+		F2C1A0111D18C040003D9DB9 /* boy04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boy04.png; path = Media/boy04.png; sourceTree = "<group>"; };
+		F2C1A0121D18C040003D9DB9 /* dad00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dad00.png; path = Media/dad00.png; sourceTree = "<group>"; };
+		F2C1A0131D18C040003D9DB9 /* dad01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dad01.png; path = Media/dad01.png; sourceTree = "<group>"; };
+		F2C1A0141D18C040003D9DB9 /* girl00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = girl00.png; path = Media/girl00.png; sourceTree = "<group>"; };
+		F2C1A0151D18C040003D9DB9 /* girl01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = girl01.png; path = Media/girl01.png; sourceTree = "<group>"; };
+		F2C1A0161D18C040003D9DB9 /* girl02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = girl02.png; path = Media/girl02.png; sourceTree = "<group>"; };
+		F2C1A0171D18C040003D9DB9 /* girl03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = girl03.png; path = Media/girl03.png; sourceTree = "<group>"; };
+		F2C1A0181D18C040003D9DB9 /* girl04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = girl04.png; path = Media/girl04.png; sourceTree = "<group>"; };
+		F2C1A0191D18C040003D9DB9 /* mom00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mom00.png; path = Media/mom00.png; sourceTree = "<group>"; };
+		F2C1A01A1D18C040003D9DB9 /* mom01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mom01.png; path = Media/mom01.png; sourceTree = "<group>"; };
+		F2C1A02B1D18C0E9003D9DB9 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Home.h; path = Controllers/Home/Home.h; sourceTree = "<group>"; };
+		F2C1A02C1D18C0E9003D9DB9 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Home.m; path = Controllers/Home/Home.m; sourceTree = "<group>"; };
+		F2C1A02E1D18C29B003D9DB9 /* icMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icMenu.png; path = Media/icMenu.png; sourceTree = "<group>"; };
+		F2C1A0301D18C7A9003D9DB9 /* icAbout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icAbout.png; path = Media/icAbout.png; sourceTree = "<group>"; };
+		F2C1A0311D18C7A9003D9DB9 /* icCalories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icCalories.png; path = Media/icCalories.png; sourceTree = "<group>"; };
+		F2C1A0321D18C7A9003D9DB9 /* icFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icFood.png; path = Media/icFood.png; sourceTree = "<group>"; };
+		F2C1A0331D18C7A9003D9DB9 /* icMySon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icMySon.png; path = Media/icMySon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +145,8 @@
 		F2C19FD51D18B444003D9DB9 /* Obesidad */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A0031D18BCEA003D9DB9 /* Cells */,
+				F2C19FFC1D18BBCB003D9DB9 /* Menu */,
 				F2C19FF31D18BB90003D9DB9 /* Libraries */,
 				F2C19FF01D18B49F003D9DB9 /* Media */,
 				F2C19FEF1D18B491003D9DB9 /* Storyboards */,
@@ -103,6 +160,7 @@
 		F2C19FD61D18B444003D9DB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F2C19FE71D18B444003D9DB9 /* Info.plist */,
 				F2C19FD71D18B444003D9DB9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,9 +169,10 @@
 		F2C19FED1D18B47D003D9DB9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				F2C19FE71D18B444003D9DB9 /* Info.plist */,
 				F2C19FD91D18B444003D9DB9 /* AppDelegate.h */,
 				F2C19FDA1D18B444003D9DB9 /* AppDelegate.m */,
+				F2C1A00A1D18BE43003D9DB9 /* Declarations.h */,
+				F2C1A00B1D18BE43003D9DB9 /* Declarations.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -121,8 +180,8 @@
 		F2C19FEE1D18B486003D9DB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F2C19FDC1D18B444003D9DB9 /* Start.h */,
-				F2C19FDD1D18B444003D9DB9 /* Start.m */,
+				F2C1A02A1D18C0CA003D9DB9 /* Home */,
+				F2C1A0291D18C0C0003D9DB9 /* Start */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +198,25 @@
 		F2C19FF01D18B49F003D9DB9 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F2C1A0301D18C7A9003D9DB9 /* icAbout.png */,
+				F2C1A0311D18C7A9003D9DB9 /* icCalories.png */,
+				F2C1A0321D18C7A9003D9DB9 /* icFood.png */,
+				F2C1A0331D18C7A9003D9DB9 /* icMySon.png */,
+				F2C1A02E1D18C29B003D9DB9 /* icMenu.png */,
+				F2C1A00D1D18C040003D9DB9 /* boy00.png */,
+				F2C1A00E1D18C040003D9DB9 /* boy01.png */,
+				F2C1A00F1D18C040003D9DB9 /* boy02.png */,
+				F2C1A0101D18C040003D9DB9 /* boy03.png */,
+				F2C1A0111D18C040003D9DB9 /* boy04.png */,
+				F2C1A0121D18C040003D9DB9 /* dad00.png */,
+				F2C1A0131D18C040003D9DB9 /* dad01.png */,
+				F2C1A0141D18C040003D9DB9 /* girl00.png */,
+				F2C1A0151D18C040003D9DB9 /* girl01.png */,
+				F2C1A0161D18C040003D9DB9 /* girl02.png */,
+				F2C1A0171D18C040003D9DB9 /* girl03.png */,
+				F2C1A0181D18C040003D9DB9 /* girl04.png */,
+				F2C1A0191D18C040003D9DB9 /* mom00.png */,
+				F2C1A01A1D18C040003D9DB9 /* mom01.png */,
 				F2C19FF11D18BAA9003D9DB9 /* IconApp.png */,
 				F2C19FE21D18B444003D9DB9 /* Assets.xcassets */,
 			);
@@ -163,6 +241,53 @@
 			);
 			name = ECSlidingViewController;
 			path = Libraries/ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		F2C19FFC1D18BBCB003D9DB9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F2C19FFD1D18BBE6003D9DB9 /* InitialSlidingViewController.h */,
+				F2C19FFE1D18BBE6003D9DB9 /* InitialSlidingViewController.m */,
+				F2C1A0001D18BBFF003D9DB9 /* MenuViewController.h */,
+				F2C1A0011D18BBFF003D9DB9 /* MenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		F2C1A0031D18BCEA003D9DB9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A0041D18BD8D003D9DB9 /* CellMenu */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F2C1A0041D18BD8D003D9DB9 /* CellMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A0051D18BDA6003D9DB9 /* CellMenu.h */,
+				F2C1A0061D18BDA6003D9DB9 /* CellMenu.m */,
+				F2C1A0071D18BDA6003D9DB9 /* CellMenu.xib */,
+			);
+			name = CellMenu;
+			sourceTree = "<group>";
+		};
+		F2C1A0291D18C0C0003D9DB9 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				F2C19FDC1D18B444003D9DB9 /* Start.h */,
+				F2C19FDD1D18B444003D9DB9 /* Start.m */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		F2C1A02A1D18C0CA003D9DB9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A02B1D18C0E9003D9DB9 /* Home.h */,
+				F2C1A02C1D18C0E9003D9DB9 /* Home.m */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,10 +350,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C1A01D1D18C040003D9DB9 /* boy02.png in Resources */,
 				F2C19FF21D18BAA9003D9DB9 /* IconApp.png in Resources */,
+				F2C1A01E1D18C040003D9DB9 /* boy03.png in Resources */,
+				F2C1A0341D18C7A9003D9DB9 /* icAbout.png in Resources */,
+				F2C1A0361D18C7A9003D9DB9 /* icFood.png in Resources */,
+				F2C1A0281D18C040003D9DB9 /* mom01.png in Resources */,
+				F2C1A0351D18C7A9003D9DB9 /* icCalories.png in Resources */,
+				F2C1A0201D18C040003D9DB9 /* dad00.png in Resources */,
+				F2C1A0371D18C7A9003D9DB9 /* icMySon.png in Resources */,
 				F2C19FE61D18B444003D9DB9 /* LaunchScreen.storyboard in Resources */,
+				F2C1A02F1D18C29B003D9DB9 /* icMenu.png in Resources */,
+				F2C1A0261D18C040003D9DB9 /* girl04.png in Resources */,
+				F2C1A01F1D18C040003D9DB9 /* boy04.png in Resources */,
+				F2C1A0241D18C040003D9DB9 /* girl02.png in Resources */,
+				F2C1A01B1D18C040003D9DB9 /* boy00.png in Resources */,
+				F2C1A0091D18BDA6003D9DB9 /* CellMenu.xib in Resources */,
+				F2C1A01C1D18C040003D9DB9 /* boy01.png in Resources */,
+				F2C1A0271D18C040003D9DB9 /* mom00.png in Resources */,
 				F2C19FE31D18B444003D9DB9 /* Assets.xcassets in Resources */,
+				F2C1A0211D18C040003D9DB9 /* dad01.png in Resources */,
 				F2C19FE11D18B444003D9DB9 /* Main.storyboard in Resources */,
+				F2C1A0231D18C040003D9DB9 /* girl01.png in Resources */,
+				F2C1A0251D18C040003D9DB9 /* girl03.png in Resources */,
+				F2C1A0221D18C040003D9DB9 /* girl00.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +432,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C1A02D1D18C0E9003D9DB9 /* Home.m in Sources */,
 				F2C19FFB1D18BBA6003D9DB9 /* UIImage+ImageWithUIView.m in Sources */,
 				F2C19FDE1D18B444003D9DB9 /* Start.m in Sources */,
+				F2C1A0081D18BDA6003D9DB9 /* CellMenu.m in Sources */,
 				F2C19FFA1D18BBA6003D9DB9 /* ECSlidingViewController.m in Sources */,
 				F2C19FDB1D18B444003D9DB9 /* AppDelegate.m in Sources */,
+				F2C1A0021D18BBFF003D9DB9 /* MenuViewController.m in Sources */,
+				F2C19FFF1D18BBE6003D9DB9 /* InitialSlidingViewController.m in Sources */,
 				F2C19FD81D18B444003D9DB9 /* main.m in Sources */,
+				F2C1A00C1D18BE43003D9DB9 /* Declarations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
